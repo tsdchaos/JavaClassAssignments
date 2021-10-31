@@ -8,7 +8,7 @@ public class Class5HW1 {
 		Scanner input=new Scanner(System.in);
 		System.out.println("Please enter the month you were born:");
 		String month=input.next();
-		String season;
+		String season=null;
 		if(month.equalsIgnoreCase("December")||month.equalsIgnoreCase("January")||month.equalsIgnoreCase("February")) {
 			season="Winter";
 		}else if(month.equalsIgnoreCase("March")||month.equalsIgnoreCase("April")||month.equalsIgnoreCase("May")) {
