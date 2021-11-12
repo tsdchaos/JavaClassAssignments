@@ -15,7 +15,7 @@ public class Recap {
 			stringBuilder.append(i); //use append with SB to add on to the StringBuilder
 		}
 		System.out.println(stringBuilder);
-		//stringBuilder.compareTo(); //used similar to .equals() for String
+		//stringBuilder.compareTo; //used similar to .equals() for String
 		String str3="Me: Look it's not you it's me, I just have some thing i need to work out\r\n"
 				+ "Eclipse: But we had good times didn't we? I can be better just tell me what i can do?\r\n"
 				+ "Me: Please don't make this harder than it has to be, we are just moving in 2 different directions.\r\n"
@@ -23,8 +23,11 @@ public class Recap {
 				+ "Me: She does what u do but more, She also does sting builder correctly (door closes, faint sound of steps walking away)";
 		
 		StringBuilder strBuilder=new StringBuilder(str3); //converts the String to a StringBuilder (now called strBuilder)
-		strBuilder.reverse();
+		strBuilder.reverse(); //completely reverses the StringBuilder
 		System.out.println(strBuilder);
+		// strBuilder.delete(0, 0) delete method used to remove characters between the two int positions
+		//strBuilder.deleteCharAt(0) deletes specific character at specific int position
+		str3=strBuilder.toString(); //used to assign String Builder to String
 		
 	}
 
