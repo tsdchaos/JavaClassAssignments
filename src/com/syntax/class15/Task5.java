@@ -7,19 +7,10 @@ public class Task5 {
 		String str="aba";
 		StringBuilder strB=new StringBuilder(str);
 		strB.reverse();
-		String strA;
-		strA=strB.toString();
-		System.out.println(strB);
-		if(str.equals(strA)) {
+		if(str.equals(strB)) {
 			System.out.println("String is a palindrome");
 		}
-		boolean palin;
-	    if(str.equals(strB)){
-	      palin=true;
-	    }else{
-	      palin=false;
-	    }
-	    System.out.println(palin);
+		
 	}
 
 }
