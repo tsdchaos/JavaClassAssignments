@@ -10,10 +10,10 @@ public class EmployeeTester {
 		joe.salary=75000;
 		jane.salary=80000;
 		System.out.println("Employee "+joe.empID+" has a salary of "+joe.salary+
-				" and is employed by "+joe.CEO);
+				" and is employed by "+Employee.CEO);
 		System.out.println("Employee "+jane.empID+" has a salary of "+jane.salary+
-				" and is employed by "+jane.CEO);
-
+				" and is employed by "+Employee.CEO);
+		//It is best to call static variables by calling the class instead of the object
 	}
 
 }

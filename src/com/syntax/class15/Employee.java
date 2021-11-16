@@ -10,5 +10,5 @@ public class Employee {
 	 */
 	int empID;
 	int salary;
-	String CEO = "Sumair";
+	static String CEO = "Sumair";
 }
